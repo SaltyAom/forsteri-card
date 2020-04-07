@@ -1827,10 +1827,10 @@ for-in@^1.0.2:
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
   integrity sha1-gQaNKVqBQuwKxybG4iAMMPttXoA=
 
-forsteri@^0.0.19:
-  version "0.0.19"
-  resolved "https://registry.yarnpkg.com/forsteri/-/forsteri-0.0.19.tgz#9e4c803ed7f324654891ed05c567735e1d578823"
-  integrity sha512-AJJFbQtTkWGnMOxCMdO3EXbQAPShujTl+/FMFKoUX7QPDcYWOQhyMpZaIbCBlBKP8GaCu7802v741qGfwnXLUg==
+forsteri@^0.0.21:
+  version "0.0.21"
+  resolved "https://registry.yarnpkg.com/forsteri/-/forsteri-0.0.21.tgz#31f815e2f902171eb48fbb637b4fd1ead97c3864"
+  integrity sha512-PLfqWVHiz8+K5+Ummrww78aVduo8dhtIXMl1F5UO6qSZWTxtuFsfuNYGL1yGur837RC/gq2WryFwReNn1fqfPA==
 
 forwarded@~0.1.2:
   version "0.1.2"
