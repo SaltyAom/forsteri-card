@@ -4,17 +4,25 @@
         <meta charset="utf8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="init.css" />
-        <link rel="stylesheet" href="/components/title.css">
-        <link rel="stylesheet" href="/components/detail.css">
-        <link rel="stylesheet" href="/components/link.css">
+        <link rel="preload" href="components/card.css" />
         <script src="/bundle.js"></script>
     </head>
     <body>
-        <app-title title="Forsteri"></app-title>
-        <app-detail></app-detail>
-        <app-link
-            standalone="true"
-            href="https://github.com/SaltyAom/forsteri"
-        >Forsteri Documentation</app-link>
+        <forsteri-card
+            title="Azur Lane"
+            cover="https://cdn-www.bluestacks.com/bs-images/Azur_lane_banner.jpg"
+        >
+            Azur Lane is a side-scrolling shoot 'em up video game created by
+            Chinese developers Shanghai Manjuu and Xiamen Yongshi, released in
+            2017
+        </forsteri-card>
+        <forsteri-card
+            title="Arknights"
+            cover="https://cdn-www.bluestacks.com/bs-images/com.YoStarKR.Arknights_tw_Banner.jpg"
+        >
+            Arknights is a Chinese mobile tower defense gacha video game.
+            Developed by Hypergryph and Studio Montagne while published by
+            Yostar
+        </forsteri-card>
     </body>
 </html>

@@ -1,22 +1,10 @@
 import { registerComponent } from "forsteri"
 
-import { Title, props as TitleProps } from "./title"
-import { Detail } from "./detail"
-import { Link, props as LinkProps } from "./link"
+import Card, { state, props } from "./card"
 
 registerComponent({
-    component: "app-title", 
-    view: Title, 
-    props: TitleProps
-})
-
-registerComponent({
-    component: "app-detail", 
-    view: Detail
-})
-
-registerComponent({
-    component: "app-link", 
-    view: Link, 
-    props: LinkProps
+    component: "forsteri-card",
+    view: Card,
+    state,
+    props
 })

@@ -1,7 +1,7 @@
 {
-    "name": "minimal-react-starter",
+    "name": "minimal-forsteri-starter",
     "version": "0.1.0",
-    "description": "Minimal react starter project",
+    "description": "Minimal Forsteri Starter",
     "main": "src/index.js",
     "scripts": {
         "dev": "node server.js",
@@ -20,7 +20,7 @@
         "url": "git://github.com/SaltyAom/forsteri-starter.git"
     },
     "dependencies": {
-        "forsteri": "0.0.12"
+        "forsteri": "^0.0.17"
     },
     "devDependencies": {
         "@types/webpack-env": "^1.15.1",
