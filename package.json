@@ -20,7 +20,7 @@
         "url": "git://github.com/SaltyAom/forsteri-starter.git"
     },
     "dependencies": {
-        "forsteri": "^0.0.18"
+        "forsteri": "^0.0.19"
     },
     "devDependencies": {
         "@types/webpack-env": "^1.15.1",
