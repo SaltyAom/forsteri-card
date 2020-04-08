@@ -1,11 +1,15 @@
 import { h, ForsteriComponent } from "forsteri"
 
-export const state = { isShowing: false },
+export const state = { isShowing: false, data: "a" },
     props = ["title", "cover"],
     Card: ForsteriComponent<typeof state, typeof props> = (
-        { state: { isShowing }, set },
+        { state: { isShowing, data }, set, on },
         { title, cover }
     ) => {
+        on(['data'], (newState) => {
+            console.log(newState)
+        })
+
         return (
             <fragment>
                 <link rel="stylesheet" href="/components/card.css" />
