@@ -2342,10 +2342,10 @@ for-in@^1.0.2:
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
   integrity sha1-gQaNKVqBQuwKxybG4iAMMPttXoA=
 
-forsteri-cli@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/forsteri-cli/-/forsteri-cli-0.1.0.tgz#c87094cab50f6b303d5bbd44d3ffddc800990f44"
-  integrity sha512-jguoSCrV4oXXxZl/ZpL9qc5BtAyri3MRHelNxJmrhDHH0gFxn5GgAZXvW0mQehnP59dN0QpcyLs/nbz9HFAPZQ==
+forsteri-cli@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/forsteri-cli/-/forsteri-cli-0.1.1.tgz#f5536753d278a742e573e963ad8f38b704d9694b"
+  integrity sha512-KuqBGstQETMGr4khTYwir9GdRHhkhdbx7talTP5h3KOsE4vd0atvbxidt202H3w+u7X1bw35pPdwqcuwbENmIg==
   dependencies:
     "@babel/core" "^7.10.2"
     "@types/webpack-env" "^1.15.2"
