@@ -4,9 +4,8 @@
     "description": "Minimal Forsteri Starter",
     "main": "src/index.js",
     "scripts": {
-        "dev": "node server.js",
-        "build": "yarn pre-build && webpack --config webpack.prod.js",
-        "pre-build": "rm -rf dist && cp -r public dist"
+        "dev": "forsteri dev",
+        "build": "forsteri build"
     },
     "keywords": [
         "minimal",
@@ -23,19 +22,6 @@
         "forsteri": "^0.2.10"
     },
     "devDependencies": {
-        "@types/webpack-env": "^1.15.1",
-        "babel-core": "^6.26.3",
-        "babel-loader": "7",
-        "babel-plugin-jsx-pragmatic": "^1.0.2",
-        "babel-plugin-transform-react-jsx": "^6.24.1",
-        "babel-preset-env": "^1.7.0",
-        "express": "^4.17.1",
-        "terser-webpack-plugin": "^2.3.5",
-        "ts-loader": "^6.2.2",
-        "typescript": "^3.8.3",
-        "webpack": "^4.42.1",
-        "webpack-cli": "^3.3.11",
-        "webpack-dev-middleware": "^3.7.2",
-        "webpack-hot-middleware": "^2.25.0"
+        "forsteri-cli": "^0.1.0"
     }
 }
